@@ -29,6 +29,7 @@ files {
 	'dist/files/css/*.css',
     'dist/files/javascript/*.js',
     'dist/files/assets/*.png',
+    'dist/files/assets/*.ogg',
 }
 
 dependencies {

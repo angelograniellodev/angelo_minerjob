@@ -191,7 +191,7 @@ Citizen.CreateThread(
                     break
                 end
             end
-            if type(closeTo) == "table" and not Config.Central.onDuty then
+            if type(closeTo) == "table" and Config.Central.onDuty then
                 while GetDistanceBetweenCoords(GetEntityCoords(PlayerPedId()), closeTo.coords, true) <= 1.7 do
                     Wait(0)
                     pedCoordsTextUi = GetEntityCoords(PlayerPedId())

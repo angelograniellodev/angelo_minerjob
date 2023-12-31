@@ -14,7 +14,7 @@ window.addEventListener('message', function(event) {
         if (audioPlayer != null) {
           audioPlayer.pause();
         }
-        audioPlayer = new Howl({src: ["./sounds/" + event.data.transactionFile + ".ogg"]});
+        audioPlayer = new Howl({src: ["./././files/assets/" + event.data.transactionFile + ".ogg"]});
         audioPlayer.volume(event.data.transactionVolume);
         audioPlayer.play();
       }

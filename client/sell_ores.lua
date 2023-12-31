@@ -28,7 +28,7 @@ function SellMenu()
 	end
 	ESX.UI.Menu.CloseAll()
 	ESX.UI.Menu.Open('default', GetCurrentResourceName(), 'sellitems_minerjob', {
-        title    = 'Pawnshop',
+        title    = ConfigLocales.title_sell_menu,
         align    = 'center',
         elements = elements
     }, function(data, menu)

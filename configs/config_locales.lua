@@ -26,6 +26,7 @@ ConfigLocales = {
     craftitem_menu = "CREAR ITEM",
     --Sell
     noitems_sell_notify = "No tienes los items necesarios para vender",
-    success_sell_notify = "Felicidades vendiste tus joyas"
+    success_sell_notify = "Felicidades vendiste tus joyas",
+    title_sell_menu = "VENTA DE JOYAS",
 
 }
